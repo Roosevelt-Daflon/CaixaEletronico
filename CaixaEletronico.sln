@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{4FE0CA3C-27CE-47E7-A9EC-EB278009F997}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6D91C2C8-9477-4940-AADD-2950D15E5806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{E0FE8C8D-EE83-4327-8211-F20910C04C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico.Domain", "Domain\CaixaEletronico.Domain\CaixaEletronico.Domain.csproj", "{4221A538-A19D-4814-8677-16B02AB1ED65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico.Domain.Tests", "Domain\CaixaEletronico.Domain.Tests\CaixaEletronico.Domain.Tests.csproj", "{6EA1816E-9420-4C35-832B-1C31964C4CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico.Desktop", "Application\CaixaEletronico.Desktop\CaixaEletronico.Desktop.csproj", "{C2F36196-2D7F-42C9-BF21-3DE6BFD2941F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico.Infra", "Infra\CaixaEletronico.Infra\CaixaEletronico.Infra.csproj", "{AB75EA73-F0E8-48D0-891B-66618BBBBD88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4221A538-A19D-4814-8677-16B02AB1ED65} = {6D91C2C8-9477-4940-AADD-2950D15E5806}
+		{6EA1816E-9420-4C35-832B-1C31964C4CD0} = {6D91C2C8-9477-4940-AADD-2950D15E5806}
+		{C2F36196-2D7F-42C9-BF21-3DE6BFD2941F} = {4FE0CA3C-27CE-47E7-A9EC-EB278009F997}
+		{AB75EA73-F0E8-48D0-891B-66618BBBBD88} = {E0FE8C8D-EE83-4327-8211-F20910C04C0E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4221A538-A19D-4814-8677-16B02AB1ED65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4221A538-A19D-4814-8677-16B02AB1ED65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4221A538-A19D-4814-8677-16B02AB1ED65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4221A538-A19D-4814-8677-16B02AB1ED65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA1816E-9420-4C35-832B-1C31964C4CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA1816E-9420-4C35-832B-1C31964C4CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA1816E-9420-4C35-832B-1C31964C4CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA1816E-9420-4C35-832B-1C31964C4CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F36196-2D7F-42C9-BF21-3DE6BFD2941F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F36196-2D7F-42C9-BF21-3DE6BFD2941F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F36196-2D7F-42C9-BF21-3DE6BFD2941F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F36196-2D7F-42C9-BF21-3DE6BFD2941F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB75EA73-F0E8-48D0-891B-66618BBBBD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB75EA73-F0E8-48D0-891B-66618BBBBD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB75EA73-F0E8-48D0-891B-66618BBBBD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB75EA73-F0E8-48D0-891B-66618BBBBD88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
