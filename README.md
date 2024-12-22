@@ -1,8 +1,6 @@
 
 <h1>CAIXA ELETRONICO</h1>
-<p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
-</p>
+
 <p align="left">
 	<img src="https://img.shields.io/github/license/Roosevelt-Daflon/CaixaEletronico?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/Roosevelt-Daflon/CaixaEletronico?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
