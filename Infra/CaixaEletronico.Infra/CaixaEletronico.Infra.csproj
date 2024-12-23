@@ -28,7 +28,6 @@
 
     <ItemGroup>
       <None Remove="caixaeletronico.db" />
-      <Resource Include="caixaeletronico.db" />
     </ItemGroup>
 
 </Project>
