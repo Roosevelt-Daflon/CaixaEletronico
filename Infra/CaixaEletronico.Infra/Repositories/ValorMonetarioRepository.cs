@@ -14,10 +14,4 @@ public class ValorMonetarioRepository : IValorMonetarioRepository
     }
     
     public List<ValorMonetario> GetAll() => _context.ValoresMonetarios.ToList();
-    
-    public void Update(ValorMonetario valorMonetario)
-    {
-        _context.ValoresMonetarios.Update(valorMonetario);
-        _context.SaveChanges();
-    }
 }
